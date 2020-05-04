@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+	/*text-decoration: none;	文字装飾　リンクにした線が表示されるなど*/
+}
+
+/*clearfixを追加*/
+.clearfix::after { /*clearfix 下側に入り込んでくる要素を堰き止める*/
+	content: ""; /*content 要素の直前または直後にコンテンツを挿入する*/
+	display: block; /*要素の表示方法を切り替える*/
+	clear: both; /*clear floatを解除するためのプロパティ both 左右寄せ両方*/
+
+}
+
+header {
+	width: 100%;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(img/mv.jpg);
+	background-size: cover;
+	background-position: bottom;
+	padding: 20px;
+}
+.headline {
+	color: silver;
+}
+
+main {
+	margin: 0 auto;
+	width: 840px;
+}
+.blog {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.blog-box {
+	margin-top: 30px;
+	border-bottom: 1px solid #d1d1d1;
+	padding-bottom: 30px;
+}
+
+.blog-image {
+	width: 180px;
+	height: 40PX;
+}
+
