@@ -1,0 +1,141 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+
+a {
+	text-decoration: none;	/*文字装飾　リンクにした線が表示されるなど*/
+}
+
+/*clearfixを追加*/
+.clearfix::after { /*clearfix 下側に入り込んでくる要素を堰き止める*/
+	content: ""; /*content 要素の直前または直後にコンテンツを挿入する*/
+	display: block; /*要素の表示方法を切り替える*/
+	clear: both; /*clear floatを解除するためのプロパティ both 左右寄せ両方*/
+}
+
+main {
+	width: 100%;
+}
+
+.list {
+	width: 960px;
+	margin: 50px auto;
+}
+
+.list-box1 {
+	padding: 20px;
+	background-color: silver;
+}
+.list-box2 {
+	padding: 20px;
+}
+.list-box3 {
+	padding: 20px;
+	background-color: silver;
+}
+.list-box4 {
+	padding: 20px;
+}
+.list-box5 {
+	padding: 20px;
+	background-color: silver;
+}
+.list-box6 {
+	padding: 20px;
+}
+.list-box7 {
+	padding: 20px;
+	background-color: silver;
+}
+
+.content {
+	width: 960px;
+	height: 660px
+	background-color: tomato;
+	margin: 50px auto;
+}
+
+.content-box1 {
+	height: 200px;
+	width: 30%;
+	background-color: blue;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	float: left;
+}
+.content-box2 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	margin-right: 5%;
+	margin-bottom: 40px;
+	float: left;
+}
+.content-box3 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	float: left;
+	margin-bottom: 40px;
+}
+.content-box4 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 5%;
+}
+.content-box5 {
+	height: 200px;
+	width: 30%;
+	background-color: blue;
+	float: left;
+	margin-bottom: 40px;
+	margin-right: 5%;
+}
+.content-box6 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	float: left;
+	margin-bottom: 40px;
+}
+.content-box7 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	float: left;
+	margin-right: 5%;
+}
+.content-box8 {
+	height: 200px;
+	width: 30%;
+	background-color: skyblue;
+	float: left;
+	margin-right: 5%;
+}
+.content-box9 {
+	height: 200px;
+	width: 30%;
+	background-color: blue;
+	float: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
